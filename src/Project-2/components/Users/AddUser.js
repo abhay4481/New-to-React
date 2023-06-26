@@ -28,7 +28,8 @@ export default function AddUser(props) {
         }
         props.onAddUser(enteredUserName,enteredAge);
         setEnteredAge('');
-        setEnteredUserName('');
+        setEnteredUserName(' ');
+
     }
 
     const usernameChangeHandler = (event) =>{
